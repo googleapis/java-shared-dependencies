@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.2](https://www.github.com/googleapis/java-shared-dependencies/compare/v0.1.1...v0.1.2) (2020-04-22)
+
+
+### Dependencies
+
+* update dependency io.grpc:grpc-bom to v1.29.0 ([#16](https://www.github.com/googleapis/java-shared-dependencies/issues/16)) ([eac0d44](https://www.github.com/googleapis/java-shared-dependencies/commit/eac0d448b0701a3dd5788321ed0494eb2a618f9e))
+
 ### [0.1.1](https://www.github.com/googleapis/java-shared-dependencies/compare/v0.1.0...v0.1.1) (2020-04-14)
 
 
