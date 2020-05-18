@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.3.2](https://www.github.com/googleapis/java-shared-dependencies/compare/v0.3.1...v0.3.2) (2020-05-18)
+
+
+### Dependencies
+
+* update dependency com.google.protobuf:protobuf-bom to v3.12.0 ([#38](https://www.github.com/googleapis/java-shared-dependencies/issues/38)) ([155653b](https://www.github.com/googleapis/java-shared-dependencies/commit/155653b52f32e917a1aa970a8c5a716f57c7e190))
+
 ### [0.3.1](https://www.github.com/googleapis/java-shared-dependencies/compare/v0.3.0...v0.3.1) (2020-05-13)
 
 
