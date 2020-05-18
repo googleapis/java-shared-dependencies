@@ -249,6 +249,12 @@
         <scope>test</scope>
       </dependency>
       <dependency>
+        <groupId>com.google.truth</groupId>
+        <artifactId>truth</artifactId>
+        <version>${truth.version}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>grpc-google-iam-v1</artifactId>
         <version>${grpc.iam.version}</version>
@@ -259,12 +265,6 @@
         <artifactId>google-cloud-core</artifactId>
         <version>${google.core.version}</version>
         <type>test-jar</type>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>com.google.truth</groupId>
-        <artifactId>truth</artifactId>
-        <version>${truth.version}</version>
         <scope>test</scope>
       </dependency>
     </dependencies>
