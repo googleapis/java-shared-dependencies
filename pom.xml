@@ -70,7 +70,6 @@
     <javax.annotations.version>1.3.2</javax.annotations.version>
     <animal-sniffer.version>1.18</animal-sniffer.version>
     <iam.version>0.13.0</iam.version>
-    <grpc.iam.version>0.13.0</grpc.iam.version>
     <opencensus.version>0.24.0</opencensus.version>
     <findbugs.version>3.0.2</findbugs.version>
   </properties>
@@ -220,6 +219,25 @@
         <groupId>io.opencensus</groupId>
         <artifactId>opencensus-impl-core</artifactId>
         <version>${opencensus.version}</version>
+      </dependency>
+
+      <!-- Following test deps are kept to keep them consistent with versions above -->
+      <dependency>
+        <groupId>com.google.api</groupId>
+        <artifactId>gax-grpc</artifactId>
+        <version>${gax.version}</version>
+        <classifier>testlib</classifier>
+      </dependency>
+      <dependency>
+        <groupId>io.grpc</groupId>
+        <artifactId>grpc-testing</artifactId>
+        <version>${grpc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.cloud</groupId>
+        <artifactId>google-cloud-core</artifactId>
+        <version>${google.core.version}</version>
+        <type>test-jar</type>
       </dependency>
     </dependencies>
   </dependencyManagement>
