@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.5.1](https://www.github.com/googleapis/java-shared-dependencies/compare/v0.5.0...v0.5.1) (2020-05-27)
+
+
+### Dependencies
+
+* update core dependencies to v1.93.5 ([#53](https://www.github.com/googleapis/java-shared-dependencies/issues/53)) ([9d8d4d6](https://www.github.com/googleapis/java-shared-dependencies/commit/9d8d4d602128e6e32486288cbbec117b80f3fbc6))
+* update dependency com.google.api:api-common to v1.9.1 ([#51](https://www.github.com/googleapis/java-shared-dependencies/issues/51)) ([40276df](https://www.github.com/googleapis/java-shared-dependencies/commit/40276df393e34fb72eead8499968792852a880c7))
+
 ## [0.5.0](https://www.github.com/googleapis/java-shared-dependencies/compare/v0.4.0...v0.5.0) (2020-05-26)
 
 
