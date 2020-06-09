@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.7.1](https://www.github.com/googleapis/java-shared-dependencies/compare/v0.7.0...v0.7.1) (2020-06-09)
+
+
+### Dependencies
+
+* update dependency com.google.api:api-common to v1.9.2 ([#63](https://www.github.com/googleapis/java-shared-dependencies/issues/63)) ([ee92a0e](https://www.github.com/googleapis/java-shared-dependencies/commit/ee92a0eb45595fa229cd6fa745f9f3cfa74bb65c))
+* update dependency io.grpc:grpc-bom to v1.30.0 ([#68](https://www.github.com/googleapis/java-shared-dependencies/issues/68)) ([ccf2310](https://www.github.com/googleapis/java-shared-dependencies/commit/ccf23106d29871855511cba0d4e704e4186347f5))
+
 ## [0.7.0](https://www.github.com/googleapis/java-shared-dependencies/compare/v0.6.0...v0.7.0) (2020-05-28)
 
 
