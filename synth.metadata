@@ -4,14 +4,14 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-shared-dependencies.git",
-        "sha": "d070266e7ddf8e5d0fb9965a6b404c78827b8f64"
+        "sha": "553a3393f5bede0e90e16e2d0d87daa2b936ab32"
       }
     },
     {
       "git": {
         "name": "synthtool",
         "remote": "https://github.com/googleapis/synthtool.git",
-        "sha": "f8823dec98277a9516f2fb6fae9f58b3a59a23e1"
+        "sha": "c3caf0704f25a0c365f1c315e804a30b87c62a75"
       }
     }
   ],
@@ -24,6 +24,7 @@
     ".github/release-please.yml",
     ".github/trusted-contribution.yml",
     ".github/workflows/ci.yaml",
+    ".github/workflows/samples.yaml",
     ".kokoro/build.bat",
     ".kokoro/build.sh",
     ".kokoro/coerce_logs.sh",
@@ -73,7 +74,6 @@
     "LICENSE",
     "codecov.yaml",
     "java.header",
-    "license-checks.xml",
-    "renovate.json"
+    "license-checks.xml"
   ]
 }
