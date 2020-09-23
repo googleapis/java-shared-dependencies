@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.9.2](https://www.github.com/googleapis/java-shared-dependencies/compare/0.9.1...v0.9.2) (2020-09-23)
+
+
+### Dependencies
+
+* update google.core.version to v1.93.9 ([#148](https://www.github.com/googleapis/java-shared-dependencies/issues/148)) ([b2a680e](https://www.github.com/googleapis/java-shared-dependencies/commit/b2a680ec9297136dceb622463672cc554359ba5b))
+
 ### [0.9.1](https://www.github.com/googleapis/java-shared-dependencies/compare/0.9.0...v0.9.1) (2020-09-23)
 
 
