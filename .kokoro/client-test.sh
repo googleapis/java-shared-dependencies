@@ -49,9 +49,30 @@ fi
 echo "Version: ${VERSION}"
 
 # Check this BOM against a few java client libraries
+# java-bigquery
 git clone https://github.com/googleapis/java-bigquery.git
 cd java-bigquery
 mvn install
-
 cd google-cloud-bigquery
+mvn validate -D${VERSION_KEY}=${VERSION}
+
+# java-bigqueryconnection
+git clone https://github.com/googleapis/java-bigqueryconnection.git
+cd java-bigqueryconnection
+mvn install
+cd google-cloud-bigqueryconnection
+mvn validate -D${VERSION_KEY}=${VERSION}
+
+# java-storage
+git clone https://github.com/googleapis/java-storage.git
+cd java-storage
+mvn install
+cd google-cloud-storage
+mvn validate -D${VERSION_KEY}=${VERSION}
+
+# java-spanner
+git clone https://github.com/googleapis/java-spanner.git
+cd java-spanner
+mvn install
+cd google-cloud-spanner
 mvn validate -D${VERSION_KEY}=${VERSION}
