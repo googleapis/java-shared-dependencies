@@ -36,12 +36,10 @@ cd ${scriptDir}/..
 # Make artifacts available for 'mvn validate' at the bottom
 mvn install -DskipTests=true -Dmaven.javadoc.skip=true -Dgcloud.download.skip=true -B -V -q
 
-# The version property tag of this BOM in the client library
-VERSION_KEY=google.cloud.shared-dependencies.version
 # Read the current version of this BOM in the POM. Example version: '0.116.1-alpha-SNAPSHOT'
 VERSION_POM=pom.xml
 # Namespace (xmlns) prevents xmllint from specifying tag names in XPath
-VERSION=`sed -e 's/xmlns=".*"//' $VERSION_POM | xmllint --xpath '/project/version/text()' -`
+VERSION=`sed -e 's/xmlns=".*"//' ${VERSION_POM} | xmllint --xpath '/project/version/text()' -`
 
 if [ -z "${VERSION}" ]; then
   echo "Version is not found in ${VERSION_POM}"
@@ -51,6 +49,17 @@ echo "Version: ${VERSION}"
 
 # Check this BOM against a few java client libraries
 # java-bigquery
-git clone "https://github.com/googleapis/${REPO}.git"
+git clone "https://github.com/googleapis/${REPO}.git" --depth=1
 pushd ${REPO}
+
+# replace version
+xmllint --shell <(cat pom.xml) << EOF
+setns x=http://maven.apache.org/POM/4.0.0
+cd .//x:artifactId[text()="google-cloud-shared-dependencies"]
+cd ../x:version
+set ${VERSION}
+save pom.xml
+EOF
+
+# run dependencies script
 .kokoro/dependencies.sh
