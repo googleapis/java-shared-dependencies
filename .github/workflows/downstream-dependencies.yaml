@@ -22,4 +22,5 @@ jobs:
         with:
           java-version: ${{matrix.java}}
       - run: java -version
+      - run: sudo apt-get install libxml2-utils
       - run: .kokoro/client-library-check.sh ${{matrix.repo}}
