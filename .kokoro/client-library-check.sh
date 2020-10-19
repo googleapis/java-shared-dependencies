@@ -21,19 +21,20 @@ set -eo pipefail
 # Display commands being run.
 set -x
 
+if [[ $# -lt 1 ]];
+then
+  echo "Usage: $0 <repo-name>"
+  exit 1
+fi
+REPO=$1
+
 ## Get the directory of the build script
 scriptDir=$(realpath $(dirname "${BASH_SOURCE[0]}"))
 ## cd to the parent directory, i.e. the root of the git repo
 cd ${scriptDir}/..
 
-# Print out tool version
-echo $JOB_TYPE
-java -version
-mvn -version
-git version
-
 # Make artifacts available for 'mvn validate' at the bottom
-mvn install -DskipTests=true -Dmaven.javadoc.skip=true -Dgcloud.download.skip=true -B -V
+mvn install -DskipTests=true -Dmaven.javadoc.skip=true -Dgcloud.download.skip=true -B -V -q
 
 # The version property tag of this BOM in the client library
 VERSION_KEY=google.cloud.shared-dependencies.version
@@ -50,29 +51,6 @@ echo "Version: ${VERSION}"
 
 # Check this BOM against a few java client libraries
 # java-bigquery
-git clone https://github.com/googleapis/java-bigquery.git
-cd java-bigquery
-mvn install
-cd google-cloud-bigquery
-mvn validate -D${VERSION_KEY}=${VERSION}
-
-# java-bigqueryconnection
-git clone https://github.com/googleapis/java-bigqueryconnection.git
-cd java-bigqueryconnection
-mvn install
-cd google-cloud-bigqueryconnection
-mvn validate -D${VERSION_KEY}=${VERSION}
-
-# java-storage
-git clone https://github.com/googleapis/java-storage.git
-cd java-storage
-mvn install
-cd google-cloud-storage
-mvn validate -D${VERSION_KEY}=${VERSION}
-
-# java-spanner
-git clone https://github.com/googleapis/java-spanner.git
-cd java-spanner
-mvn install
-cd google-cloud-spanner
-mvn validate -D${VERSION_KEY}=${VERSION}
+git clone "https://github.com/googleapis/${REPO}.git"
+pushd ${REPO}
+.kokoro/dependencies.sh
