@@ -3,7 +3,7 @@ on:
     branches:
       - master
   pull_request:
-name: downstream-dependencies
+name: downstream
 jobs:
   dependencies:
     runs-on: ubuntu-latest
