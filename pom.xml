@@ -189,6 +189,8 @@
         <groupId>com.fasterxml.jackson</groupId>
         <artifactId>jackson-bom</artifactId>
         <version>${jackson.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
 
       <!-- TODO: replace with opencensus-bom when available -->
