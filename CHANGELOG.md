@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.14.2](https://www.github.com/googleapis/java-shared-dependencies/compare/0.14.1...v0.14.2) (2020-11-10)
+
+
+### Dependencies
+
+* update google.common-protos.version to v2.0.1 ([#205](https://www.github.com/googleapis/java-shared-dependencies/issues/205)) ([6b12417](https://www.github.com/googleapis/java-shared-dependencies/commit/6b1241737d34e99a55acdcd439aa71ad28d1e26c))
+* update iam.version to v1.0.3 ([#206](https://www.github.com/googleapis/java-shared-dependencies/issues/206)) ([94a4e31](https://www.github.com/googleapis/java-shared-dependencies/commit/94a4e31634718a206ef0f5ff1a8801dc7be4c5c5))
+
 ### [0.14.1](https://www.github.com/googleapis/java-shared-dependencies/compare/0.14.0...v0.14.1) (2020-10-31)
 
 
