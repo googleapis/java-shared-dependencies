@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.15.1](https://www.github.com/googleapis/java-shared-dependencies/compare/0.15.0...v0.15.1) (2020-11-30)
+
+
+### Dependencies
+
+* update gax.version to v1.60.1 ([#223](https://www.github.com/googleapis/java-shared-dependencies/issues/223)) ([84c75bd](https://www.github.com/googleapis/java-shared-dependencies/commit/84c75bdbd3f86ef7187373289ee08ad3a0c24719))
+
 ## [0.15.0](https://www.github.com/googleapis/java-shared-dependencies/compare/0.14.1...v0.15.0) (2020-11-10)
 
 
