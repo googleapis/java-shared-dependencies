@@ -1,5 +1,15 @@
 # Changelog
 
+### [0.18.1](https://www.github.com/googleapis/java-shared-dependencies/compare/0.18.0...v0.18.1) (2021-01-27)
+
+
+### Dependencies
+
+* update dependency com.google.api-client:google-api-client-bom to v1.31.2 ([#254](https://www.github.com/googleapis/java-shared-dependencies/issues/254)) ([1b0b4a6](https://www.github.com/googleapis/java-shared-dependencies/commit/1b0b4a637cae0c22cd0336c527002025780317d5))
+* update dependency com.google.errorprone:error_prone_annotations to v2.5.1 ([#255](https://www.github.com/googleapis/java-shared-dependencies/issues/255)) ([6367023](https://www.github.com/googleapis/java-shared-dependencies/commit/63670233424e8f24c3924bba5e2cb6ca97525795))
+* update dependency com.google.http-client:google-http-client-bom to v1.38.1 ([#253](https://www.github.com/googleapis/java-shared-dependencies/issues/253)) ([ad87c74](https://www.github.com/googleapis/java-shared-dependencies/commit/ad87c74d9d893726042156d65850806d92e79952))
+* update iam.version to v1.0.7 ([#252](https://www.github.com/googleapis/java-shared-dependencies/issues/252)) ([5cb3ed9](https://www.github.com/googleapis/java-shared-dependencies/commit/5cb3ed906537269cd7f8d9ccf4b065754b5f5b48))
+
 ## [0.18.0](https://www.github.com/googleapis/java-shared-dependencies/compare/0.17.1...v0.18.0) (2021-01-13)
 
 
