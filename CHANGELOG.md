@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.22.0](https://www.github.com/googleapis/java-shared-dependencies/compare/0.21.1...v0.22.0) (2021-04-23)
+## [1.0.0](https://www.github.com/googleapis/java-shared-dependencies/compare/0.21.1...v1.0.0) (2021-04-23)
 
 
 ### Features
