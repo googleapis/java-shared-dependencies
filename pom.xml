@@ -114,6 +114,19 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      
+      
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpcore</artifactId>
+        <version>4.4.13</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>4.5.13</version>
+      </dependency>
+
       <dependency>
         <groupId>com.google.api</groupId>
         <artifactId>api-common</artifactId>
@@ -154,6 +167,16 @@
         <version>${google.http-client.version}</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.google.oauth-client</groupId>
+        <artifactId>google-oauth-client</artifactId>
+        <version>1.31.5</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.oauth-client</groupId>
+        <artifactId>google-oauth-client-java6</artifactId>
+        <version>1.31.5</version>
       </dependency>
       <dependency>
         <groupId>com.google.api-client</groupId>
