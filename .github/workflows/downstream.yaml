@@ -17,7 +17,6 @@ jobs:
           - java-spanner
           - java-storage
           - java-pubsub
-          - java-bigtable
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-java@v1
