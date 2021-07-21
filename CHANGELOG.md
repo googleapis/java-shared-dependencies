@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.5.0](https://www.github.com/googleapis/java-shared-dependencies/compare/1.4.0...v1.5.0) (2021-07-21)
+
+
+### Dependencies
+
+* update dependency com.fasterxml.jackson:jackson-bom to v2.12.4 ([#398](https://www.github.com/googleapis/java-shared-dependencies/issues/398)) ([f0d49b5](https://www.github.com/googleapis/java-shared-dependencies/commit/f0d49b54ba334f9351c66c9924e3d0d2ed7c0016))
+* update dependency com.google.auth:google-auth-library-bom to v0.27.0 ([#400](https://www.github.com/googleapis/java-shared-dependencies/issues/400)) ([0d5a95b](https://www.github.com/googleapis/java-shared-dependencies/commit/0d5a95b84076684f84b0fdbb93a706113f44457d))
+* update dependency com.google.cloud:grpc-gcp to v1.1.0 ([#403](https://www.github.com/googleapis/java-shared-dependencies/issues/403)) ([3cc59f1](https://www.github.com/googleapis/java-shared-dependencies/commit/3cc59f15ebb31a7f97c9f3d78057022afabe75e9))
+* update gax.version to v1.67.0 ([#405](https://www.github.com/googleapis/java-shared-dependencies/issues/405)) ([632dcd0](https://www.github.com/googleapis/java-shared-dependencies/commit/632dcd0a9f10b034a2a2ec92c7c3413490dd2a03))
+
 ## [1.4.0](https://www.github.com/googleapis/java-shared-dependencies/compare/1.3.0...v1.4.0) (2021-06-30)
 
 
