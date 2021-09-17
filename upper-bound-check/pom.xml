@@ -61,6 +61,13 @@
   </dependencyManagement>
 
   <dependencies>
+    <!--
+    This dependency list is almost same as the dependencyManagement section of the shared
+    dependencies BOM, except the followings:
+     - test-related artifacts (we don't have to worry about test dependencies)
+     - google-http-client-findbugs (org.ow2.asm:asm-commons and org.ow2.asm:asm-debug-all have
+       overlapping classes)
+    -->
     <dependency>
       <groupId>io.grpc</groupId>
       <artifactId>grpc-alts</artifactId>
