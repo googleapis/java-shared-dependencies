@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+name: linkage-check
+jobs:
+  linkage-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v1
+        with:
+          java-version: 8
+      - run: java -version
+      - name: Validate dependency conflicts among the libraries in the BOM
+        run: mvn verify -B -V -ntp  --activate-profiles linkage-check
