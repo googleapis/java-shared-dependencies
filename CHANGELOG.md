@@ -5,8 +5,7 @@
 
 ### Dependencies
 
-* downgrade protobuf to 3.17.3 (not the latest 3.18.0) ([#476](https://www.github.com/googleapis/java-shared-dependencies/issues/476)) ([e207c81](https://www.github.com/googleapis/java-shared-dependencies/commit/e207c818f220967e3618d7a9d36f2cf26c07892e))
-* update dependency com.google.protobuf:protobuf-bom to v3.18.0 ([#471](https://www.github.com/googleapis/java-shared-dependencies/issues/471)) ([55902a6](https://www.github.com/googleapis/java-shared-dependencies/commit/55902a69b01fe895aec24ceb1e1e1a13873527b5))
+* keep protobuf at 3.17.3 (not the latest 3.18.0) ([#476](https://www.github.com/googleapis/java-shared-dependencies/issues/476)) ([e207c81](https://www.github.com/googleapis/java-shared-dependencies/commit/e207c818f220967e3618d7a9d36f2cf26c07892e))
 * update gax.version to v2.5.0 ([#479](https://www.github.com/googleapis/java-shared-dependencies/issues/479)) ([e22e62a](https://www.github.com/googleapis/java-shared-dependencies/commit/e22e62a3b248023ae94da2a02ec50006377a5157))
 * update google.core.version to v2.1.4 ([#473](https://www.github.com/googleapis/java-shared-dependencies/issues/473)) ([116f278](https://www.github.com/googleapis/java-shared-dependencies/commit/116f2783dfc18f215905ceaff9f85f331f83472b))
 * update google.core.version to v2.1.6 ([#478](https://www.github.com/googleapis/java-shared-dependencies/issues/478)) ([9e09728](https://www.github.com/googleapis/java-shared-dependencies/commit/9e0972834764b25e5e194e0e805efc5453120df3))
