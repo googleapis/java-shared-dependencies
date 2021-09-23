@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.0](https://www.github.com/googleapis/java-shared-dependencies/compare/2.3.0...v2.4.0) (2021-09-23)
+
+
+### Dependencies
+
+* update dependency io.grpc:grpc-bom to v1.41.0 ([#482](https://www.github.com/googleapis/java-shared-dependencies/issues/482)) ([8a7d227](https://www.github.com/googleapis/java-shared-dependencies/commit/8a7d227f2a1dab9ff23d247a4e6131c817804c36))
+
 ## [2.3.0](https://www.github.com/googleapis/java-shared-dependencies/compare/2.2.1...v2.3.0) (2021-09-22)
 
 
