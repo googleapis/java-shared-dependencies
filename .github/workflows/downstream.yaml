@@ -1,8 +1,8 @@
-on:
+'on':
   push:
     branches:
-      - main
-  pull_request:
+      - 2.4.x
+  pull_request: null
 name: downstream
 jobs:
   dependencies:
@@ -10,7 +10,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        java: [8, 11]
+        java:
+          - 8
+          - 11
         repo:
           - java-bigquery
           - java-bigqueryconnection
