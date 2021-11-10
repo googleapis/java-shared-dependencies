@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.20.2](https://www.github.com/googleapis/java-shared-dependencies/compare/0.20.1...v0.20.2) (2021-11-10)
+
+
+### Dependencies
+
+* update dependency com.google.code.gson:gson to v2.8.9 ([#522](https://www.github.com/googleapis/java-shared-dependencies/issues/522)) ([749e588](https://www.github.com/googleapis/java-shared-dependencies/commit/749e58883bb47cbb31c6f997ea640d40242730e0))
+
 ### [0.20.1](https://www.github.com/googleapis/java-shared-dependencies/compare/0.20.0...v0.20.1) (2021-03-09)
 
 
