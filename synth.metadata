@@ -4,7 +4,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-shared-dependencies.git",
-        "sha": "8a7d227f2a1dab9ff23d247a4e6131c817804c36"
+        "sha": "51626f1d1d6c21988c735a3250a0f12485a7f9f6"
       }
     },
     {
