@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-    - master
+    - 0.20.x
   pull_request:
 name: ci
 jobs:
@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        java: [7, 8, 11]
+        java: [8, 11]
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-java@v1
@@ -46,19 +46,6 @@ jobs:
         java-version: ${{matrix.java}}
     - run: java -version
     - run: .kokoro/dependencies.sh
-  linkage-monitor:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-java@v1
-      with:
-        java-version: 8
-    - run: java -version
-    - name: Install artifacts to local Maven repository
-      run: .kokoro/build.sh
-      shell: bash
-    - name: Validate any conflicts with regard to com.google.cloud:libraries-bom (latest release)
-      uses: GoogleCloudPlatform/cloud-opensource-java/linkage-monitor@v1-linkagemonitor
   lint:
     runs-on: ubuntu-latest
     steps:
@@ -80,4 +67,4 @@ jobs:
     - run: java -version
     - run: .kokoro/build.sh
       env:
-        JOB_TYPE: clirr
+        JOB_TYPE: clirr 
