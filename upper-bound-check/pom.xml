@@ -4,7 +4,7 @@
   <groupId>com.google.cloud</groupId>
   <artifactId>shared-dependencies-upper-bound-test</artifactId>
   <packaging>pom</packaging>
-  <version>2.5.0</version><!-- {x-version-update:google-cloud-shared-dependencies:current} -->
+  <version>2.5.1-SNAPSHOT</version><!-- {x-version-update:google-cloud-shared-dependencies:current} -->
   <name>Upper bound test for Google Cloud Shared Dependencies</name>
   <url>https://github.com/googleapis/java-shared-dependencies</url>
   <description>
@@ -17,7 +17,7 @@
     <groupId>com.google.cloud</groupId>
     <!-- The shared config has RequireUpperBoundDeps enforcer rule -->
     <artifactId>google-cloud-shared-config</artifactId>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
   </parent>
 
   <organization>
@@ -53,7 +53,7 @@
       <dependency>
         <groupId>com.google.cloud</groupId>
         <artifactId>google-cloud-shared-dependencies</artifactId>
-        <version>2.5.0</version><!-- {x-version-update:google-cloud-shared-dependencies:current} -->
+        <version>2.5.1-SNAPSHOT</version><!-- {x-version-update:google-cloud-shared-dependencies:current} -->
         <type>pom</type>
         <scope>import</scope>
       </dependency>
