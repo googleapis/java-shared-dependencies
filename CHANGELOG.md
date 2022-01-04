@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.6.0](https://github.com/googleapis/java-shared-dependencies/compare/v2.5.1...v2.6.0) (2022-01-04)
+
+
+### Bug Fixes
+
+* **java:** add -ntp flag to native image testing command ([#1299](https://github.com/googleapis/java-shared-dependencies/issues/1299)) ([#546](https://github.com/googleapis/java-shared-dependencies/issues/546)) ([d8bb8d9](https://github.com/googleapis/java-shared-dependencies/commit/d8bb8d9d8e3b8c582f768cd3164e8580ec334511))
+
+
+### Dependencies
+
+* update dependency org.apache.httpcomponents:httpcore to v4.4.15 ([#550](https://github.com/googleapis/java-shared-dependencies/issues/550)) ([e2d3dba](https://github.com/googleapis/java-shared-dependencies/commit/e2d3dbad6dd54c117abb5ab1b6137cfee4e5a32b))
+* update dependency org.checkerframework:checker-qual to v3.20.0 ([#549](https://github.com/googleapis/java-shared-dependencies/issues/549)) ([586df59](https://github.com/googleapis/java-shared-dependencies/commit/586df5949d4ddca11d0705d696882c32d8436c31))
+* update iam.version to v1.2.0 ([#547](https://github.com/googleapis/java-shared-dependencies/issues/547)) ([3232c82](https://github.com/googleapis/java-shared-dependencies/commit/3232c828b628cb604a200b3e569e56e758e5e11d))
+
 ### [2.5.1](https://www.github.com/googleapis/java-shared-dependencies/compare/2.5.0...v2.5.1) (2021-12-03)
 
 
