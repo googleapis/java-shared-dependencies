@@ -7,5 +7,5 @@
   "repo": "googleapis/java-shared-dependencies",
   "repo_short": "java-shared-dependencies",
   "distribution_name": "com.google.cloud:google-cloud-shared-dependencies",
-  "library_type": "other"
+  "library_type": "OTHER"
 }
