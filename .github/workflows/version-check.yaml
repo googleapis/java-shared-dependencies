@@ -23,7 +23,7 @@ jobs:
         run: mvn -B -V -ntp verify -Dcheckstyle.skip
         working-directory: upper-bound-check
   dependency-convergence-check:
-    name: Dependency convergence check for some (not all) artifacts
+    name: Dependency convergence check for certain artifacts
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -36,6 +36,6 @@ jobs:
     - run: java -version
     - name: Install the BOM to local Maven repository
       run: .kokoro/build.sh
-    - name: Check the BOM content satisfies the dependency-convergence-check test case
+    - name: Check the BOM content satisfies the dependency-convergence-check test
       run: mvn -B -V -ntp verify -Dcheckstyle.skip
       working-directory: dependency-convergence-check
