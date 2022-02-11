@@ -157,4 +157,4 @@ jobs:
         java-version: ${{matrix.java}}
     - run: java -version
     - run: sudo apt-get install libxml2-utils
-    - run: .kokoro/downstream-downstream-client-library-check.sh ${{matrix.repo}}
+    - run: .kokoro/downstream-client-library-check.sh ${{matrix.repo}}
