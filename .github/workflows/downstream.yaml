@@ -21,10 +21,7 @@ on:
 name: downstream
 jobs:
   dependencies:
-    if: |
-      ${{ github.event.label.name == 'downstream-check:run' }} ||
-      startsWith(github.event.pull_request.title, 'deps') ||
-      startsWith(github.event.pull_request.title, 'feat')
+    if: ${{ github.event.label.name == 'downstream-check:run' }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
