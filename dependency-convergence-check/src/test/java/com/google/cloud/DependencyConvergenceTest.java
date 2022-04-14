@@ -60,8 +60,7 @@ public class DependencyConvergenceTest {
             "grpc-gcp",
             // Because native-image-support's gRPC dependency is provided scope, it does not bring
             // inconsistent gRPC artifacts to users' class paths.
-            "native-image-support"
-            ));
+            "native-image-support"));
   }
 
   /**
