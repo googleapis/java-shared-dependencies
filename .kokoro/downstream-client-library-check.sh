@@ -62,5 +62,7 @@ if [[ $CLIENT_LIBRARY == "bigtable" ]]; then
   popd
 fi
 
-# This reads the JOB_TYPE environmental variable ("test" or "graalvm")
-.kokoro/build.sh
+mvn verify install -B -V -ntp -fae \
+-Dmaven.javadoc.skip=true \
+-Dgcloud.download.skip=true \
+-Denforcer.skip=true 
