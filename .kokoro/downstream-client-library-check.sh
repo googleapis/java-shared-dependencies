@@ -63,4 +63,4 @@ if [[ $CLIENT_LIBRARY == "bigtable" ]]; then
 fi
 
 # This reads the JOB_TYPE environmental variable ("test" or "graalvm")
-./kokoro/build.sh
+.kokoro/build.sh
