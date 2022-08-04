@@ -62,8 +62,8 @@ if [[ $CLIENT_LIBRARY == "bigtable" ]]; then
   popd
 fi
 
-# We don't want to fail the teest due to enforcer rule before running GraalVM
-# tests.
+# We don't want to fail the test due to enforcer rule, before running GraalVM
+# tests. Checking GraalVM buidl result is more important.
 export INTEGRATION_TEST_ARGS="-Denforcer.skip=true"
 
 # This reads the JOB_TYPE environmental variable ("test" or "graalvm")
