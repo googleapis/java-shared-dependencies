@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.10.1](https://github.com/googleapis/java-shared-dependencies/compare/v2.10.0...v2.10.1) (2022-10-10)
+
+
+### Dependencies
+
+* Google-common-protos 2.8.4 ([#863](https://github.com/googleapis/java-shared-dependencies/issues/863)) ([becb1f1](https://github.com/googleapis/java-shared-dependencies/commit/becb1f14e65a310b46f6ca1e35d4a4f956a929f1))
+* Protobuf 3.19.6 and gRPC 1.45.2 to 2.10.x ([#855](https://github.com/googleapis/java-shared-dependencies/issues/855)) ([8eca3de](https://github.com/googleapis/java-shared-dependencies/commit/8eca3dea4c5d2e8f470efca02e775558ce422032))
+
 ## [2.10.0](https://github.com/googleapis/java-shared-dependencies/compare/v2.9.0...v2.10.0) (2022-04-15)
 
 
