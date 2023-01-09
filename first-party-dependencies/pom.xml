@@ -66,7 +66,9 @@
 
   <dependencyManagement>
     <dependencies>
+
       <dependency>
+        <!-- This BOM declares the versions gRPC, Protobuf, Guava, etc. -->
         <groupId>com.google.api</groupId>
         <artifactId>gapic-generator-java-bom</artifactId>
         <version>${gapic-generator-java-bom.version}</version>
