@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.2](https://github.com/googleapis/java-shared-dependencies/compare/v2.10.1...v2.10.2) (2023-01-17)
+
+
+### Dependencies
+
+* GRPC 1.45.3 ([#964](https://github.com/googleapis/java-shared-dependencies/issues/964)) ([77988fa](https://github.com/googleapis/java-shared-dependencies/commit/77988facf9ea41e7c767ce8a149c82bc714d1e32))
+
 ## [2.10.1](https://github.com/googleapis/java-shared-dependencies/compare/v2.10.0...v2.10.1) (2022-10-10)
 
 
