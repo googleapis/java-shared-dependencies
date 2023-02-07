@@ -1,6 +1,18 @@
 # Changelog
 
 
+## [3.1.3](https://github.com/googleapis/java-shared-dependencies/compare/v3.1.2...v3.1.3) (2023-02-07)
+
+
+### Bug Fixes
+
+* Outdated versioning info in README.md ([#979](https://github.com/googleapis/java-shared-dependencies/issues/979)) ([a167608](https://github.com/googleapis/java-shared-dependencies/commit/a1676085b41930ebf27db7d77f524f3f83a68002))
+
+
+### Documentation
+
+* Readme to explain migration to google-cloud-java ([#1001](https://github.com/googleapis/java-shared-dependencies/issues/1001)) ([a59ab50](https://github.com/googleapis/java-shared-dependencies/commit/a59ab50d8d9276f65c748955bfbfa891a8dd87e3))
+
 ## [3.1.2](https://github.com/googleapis/java-shared-dependencies/compare/v3.1.1...v3.1.2) (2023-01-20)
 
 
