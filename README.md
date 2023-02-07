@@ -9,7 +9,7 @@ This artifact is intended for Google-internal use, not for library users.
 https://github.com/googleapis/google-cloud-java/tree/main/java-shared-dependencies).
 This repository will be archived in the future.
 Future releases will appear in the new repository (https://github.com/googleapis/google-cloud-java/releases).
-The Maven artifact coordinates (such as `com.google.cloud:google-cloud-core`) remain the same.
+The Maven artifact coordinates (such as `com.google.cloud:google-cloud-shared-dependencies`) remain the same.
 
 [![Maven][maven-version-image]][maven-version-link]
 
@@ -23,7 +23,7 @@ If you are using Maven, add this to the `dependencyManagement` section.
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-shared-dependencies</artifactId>
-      <version>2.6.0</version>
+      <version>3.2.0</version>
       <type>pom</type>
       <scope>import</scope>
     </dependency>
