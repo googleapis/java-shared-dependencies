@@ -24,7 +24,9 @@ java.common_templates(excludes=[
   '.github/workflows/samples.yaml',
   '.github/release-please.yml',
   '.github/workflows/auto-release.yaml',
+  '.github/sync-repo-settings.yaml',
   '.kokoro/nightly/integration.cfg',
   '.kokoro/nightly/java11-integration.cfg',
-  '.kokoro/nightly/samples.cfg'
+  '.kokoro/nightly/samples.cfg',
+  '.github/ISSUE_TEMPLATE/*'
 ])
