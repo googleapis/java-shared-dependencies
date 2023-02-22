@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.4](https://github.com/googleapis/java-shared-dependencies/compare/v2.10.3...v2.10.4) (2023-02-22)
+
+
+### Dependencies
+
+* Auth library 1.6.1 ([#1008](https://github.com/googleapis/java-shared-dependencies/issues/1008)) ([8a56ec8](https://github.com/googleapis/java-shared-dependencies/commit/8a56ec80ab08e6f7a3560ea46931ef2de4e03e20))
+
 ## [2.10.3](https://github.com/googleapis/java-shared-dependencies/compare/v2.10.2...v2.10.3) (2023-01-26)
 
 
