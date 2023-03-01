@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [3.0.7](https://github.com/googleapis/java-shared-dependencies/compare/v3.0.6...v3.0.7) (2023-03-01)
+
+
+### Dependencies
+
+* Update auth to 1.12.2 ([#1012](https://github.com/googleapis/java-shared-dependencies/issues/1012)) ([40cf245](https://github.com/googleapis/java-shared-dependencies/commit/40cf24523b92d9fc0d6673002a729c4f7c609630))
+
 ## [3.0.6](https://github.com/googleapis/java-shared-dependencies/compare/v3.0.5...v3.0.6) (2022-11-07)
 
 
